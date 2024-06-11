@@ -7,6 +7,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleEQ - Standalone Plugi
 		{52EC1949-4D16-13FB-F2FE-A87184AA1315} = {52EC1949-4D16-13FB-F2FE-A87184AA1315}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleEQ - VST", "SimpleEQ_VST.vcxproj", "{C13B4F4B-27CD-DEFA-DBBF-900C71874E3B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{52EC1949-4D16-13FB-F2FE-A87184AA1315} = {52EC1949-4D16-13FB-F2FE-A87184AA1315}
+	EndProjectSection
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SimpleEQ - VST3", "SimpleEQ_VST3.vcxproj", "{17DC16C3-6771-6F19-E919-1C2CFB256463}"
 	ProjectSection(ProjectDependencies) = postProject
 		{52EC1949-4D16-13FB-F2FE-A87184AA1315} = {52EC1949-4D16-13FB-F2FE-A87184AA1315}
@@ -23,6 +28,10 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C13B4F4B-27CD-DEFA-DBBF-900C71874E3B}.Debug|x64.ActiveCfg = Debug|x64
+		{C13B4F4B-27CD-DEFA-DBBF-900C71874E3B}.Debug|x64.Build.0 = Debug|x64
+		{C13B4F4B-27CD-DEFA-DBBF-900C71874E3B}.Release|x64.ActiveCfg = Release|x64
+		{C13B4F4B-27CD-DEFA-DBBF-900C71874E3B}.Release|x64.Build.0 = Release|x64
 		{17DC16C3-6771-6F19-E919-1C2CFB256463}.Debug|x64.ActiveCfg = Debug|x64
 		{17DC16C3-6771-6F19-E919-1C2CFB256463}.Debug|x64.Build.0 = Debug|x64
 		{17DC16C3-6771-6F19-E919-1C2CFB256463}.Release|x64.ActiveCfg = Release|x64
