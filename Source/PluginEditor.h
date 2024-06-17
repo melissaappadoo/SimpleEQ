@@ -18,7 +18,7 @@ struct myLookAndFeel : juce::LookAndFeel_V4
         float sliderPosPositional,
         float rotaryStartAngle,
         float rotaryEndAngle,
-        juce::Slider&) override;
+        juce::Slider& slider) override;
 };
 
 struct RotartSliderWithLabels : juce::Slider
